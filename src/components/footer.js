@@ -11,8 +11,7 @@ export default class Footer extends React.Component {
         this.textPhotographer = 
             <p style={{ maxWidth: "400px", color: "black" }}>
                 <a href={config.linkPhotographer} target="_blank" rel="noopener noreferrer">
-                    Mr Photographer
-                </a> was our wonderful photographer. We also added some photos taken by our lovely guests; hover over the images to see attribution.
+                </a> Aloha! My name is Ken and I have been flying drones since 2015. I am a FAA 107 licensed UAS pilot. As a Remote Pilot in Command, I provide and capture aerial drone content for clients in different sectors which include Agriculture, Commercial and Residential Real Estate, Construction, Roof Inspections, Survey and Mapping. If you would like to get in touch, please feel free to contact me.
             </p>
 
         this.textDownload = 
@@ -51,11 +50,11 @@ export default class Footer extends React.Component {
                 <center>
                     <div>
                         <span onClick={() => this.handleTextChange(this.textDownload)} style={{ cursor: "pointer" }}>
-                            {/* Download photos */}
+                            Download photos
                         </span> | <a href={config.linkSource} target="_blank" rel="noopener noreferrer">
-                            {/* Website source */}
+                            Website source
                         </a> | <span onClick={() => this.handleTextChange(this.textPhotographer)} style={{ cursor: "pointer" }}>
-                            Behind the camera
+                            About me
                         </span>
                         {this.state.showMoreText}
                     </div>
