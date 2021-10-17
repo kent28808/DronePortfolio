@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Photo Book`,
-    description: `Share your photosets with style.`,
-    author: `baobabKoodaa`,
+    title: `Ken T. | Drone Portfolio`,
+    description: `Drone Portfolio`,
+    author: `KenT`,
   },
   plugins: [
     {
