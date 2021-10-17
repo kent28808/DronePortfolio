@@ -52,7 +52,7 @@ export default class Footer extends React.Component {
                         <span onClick={() => this.handleTextChange(this.textDownload)} style={{ cursor: "pointer" }}>
                             Download photos
                         </span> | <a href={config.linkSource} target="_blank" rel="noopener noreferrer">
-                            Website source
+                            {/* Website source */}
                         </a> | <span onClick={() => this.handleTextChange(this.textPhotographer)} style={{ cursor: "pointer" }}>
                             About me
                         </span>
